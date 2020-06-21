@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <input
+    type="file"
+    name="fileUpload"
+    accept="image/jpg, image/gif, image/png"
+  />
+<button type="submit">Submit Image</button>
+</form>
+
+{{#if error}}
+<div>{{{error}}}</div>
+{{/if}}
+
+{{#if success}}
+<div>{{{success}}}</div>
+{{/if}}
+
+    <script src="javascripts/main.js"></script>
