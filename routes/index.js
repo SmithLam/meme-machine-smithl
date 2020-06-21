@@ -76,6 +76,18 @@ router.get("/original", function (req, res, next) {
 });
 
 
+router.get("/meme", function (req, res, next) {
+
+  return res.render("original", {
+    title: "Meme Machine",
+    success: "See your Memes here.",
+    // images: originals,
+    path: "/images/memes/",
+  });
+});
+
+
+
 
 
 module.exports = router;
