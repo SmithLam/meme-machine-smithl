@@ -4,3 +4,9 @@
 {{#if success}}
 <div>{{{success}}}</div>
 {{/if}}
+
+{{#if images}}
+{{#each images}}
+<img src="{{../path}}{{filename}}" alt="{{filename}}"/>
+{{/each}}
+{{/if}}

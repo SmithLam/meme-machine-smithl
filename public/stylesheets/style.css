@@ -1,22 +1,22 @@
-body{
+body {
   height: 100%;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
 
-#meme-image{
+img {
   height: 200px;
 }
 
-.footer{
-  position:absolute;
-   bottom:0;
-   width:100%;
-   text-align: center;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
-.body{
+.body {
   margin: 10px;
 }
